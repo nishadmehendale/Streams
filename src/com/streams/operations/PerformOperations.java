@@ -41,8 +41,8 @@ public class PerformOperations {
 	}
 
 	private static Predicate<Integer> isPalindrome(){
-		Predicate<Integer> isPrime = n -> Integer.toString(n).equals(new StringBuilder(Integer.toString(n)).reverse().toString());
-		return isPrime;
+		Predicate<Integer> isPalindrome = n -> Integer.toString(n).equals(new StringBuilder(Integer.toString(n)).reverse().toString());
+		return isPalindrome;
 	}
 
 }
